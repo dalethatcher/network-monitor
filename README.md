@@ -31,6 +31,7 @@ WantedBy=default.target
 
 ```shell
 systemctl --user enable network-monitor.service
+loginctl enable-linger <user id>
 ```
 
 ### launch script ~/bin/run-network-monitor.sh
